@@ -1,34 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Flexxible - A Dribble Clone
 
-## Getting Started
+![image](https://github.com/Abubakarrrr/grafbase_flexibble/blob/main/flexxible.png)
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Flexxible - A dribble clone built using NextJs and Graphbase
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+👉 Modern Design Home Page: Features a clean and modern design resembling Dribbble, with a visually appealing interface showcasing project previews and navigation.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+👉 Browsing and Pagination: Browse different projects, filter them by category, and experience smooth pagination for seamless data exploration.
 
-## Learn More
+👉 Authentication & Authorization System: A fully functional authentication and authorization system allows users to log in securely using JWT and Google authentication.
 
-To learn more about Next.js, take a look at the following resources:
+👉 Create Post Page: Provides a dedicated space for users to share their projects with the community. It includes fields for project details, images, and other relevant information.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+👉 Project Details and Related Projects: A detailed view with related projects functionality, enabling users to explore more projects within the same category or theme.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+👉 Edit and Re-upload Images: Users have the capability to edit previously created projects, including the ability to re-upload images from their devices to the cloud for updates.
 
-## Deploy on Vercel
+👉 Delete Projects: The delete functionality simplifies project removal with a one-click process, streamlining the user experience.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+👉 Portfolio-Style User Profile Page: The user profile page adopts a portfolio-style layout, displaying the user's projects along with the project profiles of other users for easy exploration.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+👉 Backend API Routes: Backend API routes for handling JWT token management for secure authentication and image uploading, supporting seamless integration with the frontend.
+
+## Technologies
+
+**Next.js**: React framework for building server-rendered applications.
+**Next Auth**: Authentication library for Next.js projects.
+**TypeScript**: Typed JavaScript for improved code quality and developer productivity.
+**JSON Web Token (JWT)**: Securely transmitting information between parties.
+**GraphQL**: Query language for APIs to retrieve exactly the data needed.
+**Graphbase**
+**Cloudinary**: Cloud-based image and video management service for web applications.
+**Tailwind CSS**: Utility-first CSS framework for designing custom designs without writing custom CSS.
+**Headless UI**: Completely unstyled, fully accessible UI components designed to integrate seamlessly with Tailwind CSS.
+
+## Installation
+
+1. Clone the repository: `https://github.com/Abubakarrrr/grafbase_flexibble`
+2. Navigate to the project directory: `cd flexxible-nextjs`
+3. Install dependencies: `npm install`
+4. Open terminal: "npm run dev"
+5. Open another terminal: `npx graphbase dev`
+6. Open your browser and visit: `http://localhost:3000`
+
+## Contribution
+
+This project is made from : javascript mastery
